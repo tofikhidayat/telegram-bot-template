@@ -1,0 +1,21 @@
+{
+  "name": "Telegram_bot",
+  "version": "1.0.0",
+  "description": "it for tekegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('running')",
+    "start": "node index.js",
+    "nodemon": "nodemon ./index.js"
+  },
+  "author": "tofik",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "mysql": "^2.16.0"
+  }
+}
